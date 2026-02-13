@@ -1,0 +1,50 @@
+[org/gnome/shell]
+enabled-extensions=['dash-to-panel@jderose9.github.com', 'arcmenu@arcmenu.com', 'ding@rastersoft.com', 'tiling-assistant@ubuntu.com', 'ubuntu-appindicators@ubuntu.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'com.brave.Browser.desktop']
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+monospace-font-name='Monospace Regular 12'
+
+[org/gnome/shell/extensions/ding]
+start-corner='top-left'
+
+[org/gnome/shell/extensions/arcmenu]
+application-shortcuts=[{'id': 'ArcMenu_Software', 'name': 'Software'}, {'id': 'org.gnome.Settings.desktop'}, {'id': 'org.gnome.Terminal.desktop'}]
+arcmenu-hotkey=['Super_L']
+arcmenu-hotkey-overlay-key-enabled=false
+category-icon-type='Full_Color'
+context-menu-items=[{'id': 'ArcMenu_Settings', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}, {'id': 'ArcMenu_PanelExtensionSettings', 'name': 'Panel Extension Settings', 'icon': 'application-x-addon-symbolic'}, {'id': 'ArcMenu_Separator', 'name': 'Separator', 'icon': 'list-remove-symbolic'}, {'id': 'ArcMenu_PowerOptions', 'name': 'Power Options', 'icon': 'system-shutdown-symbolic'}, {'id': 'ArcMenu_ActivitiesOverview', 'name': 'Activities Overview', 'icon': 'view-fullscreen-symbolic'}, {'id': 'ArcMenu_ShowDesktop', 'name': 'Show Desktop', 'icon': 'computer-symbolic'}]
+default-menu-view='Categories_List'
+extra-categories=[(3, false), (2, false), (0, false), (1, false), (4, false)]
+hotkey-open-primary-monitor=false
+menu-button-appearance='Icon'
+menu-button-icon-size=30
+menu-item-category-icon-size='Extralarge'
+menu-item-icon-size='Extralarge'
+multi-monitor=true
+pinned-apps=[{'id': 'org.gnome.Nautilus.desktop'}, {'id': 'org.gnome.Terminal.desktop'}, {'id': 'gnome-extensions prefs arcmenu@arcmenu.com', 'name': 'ArcMenu Settings', 'icon': 'ArcMenu_ArcMenuIcon'}]
+power-display-style='Default'
+power-options=[(0, true), (1, true), (2, true), (3, true), (4, false), (5, false), (6, false), (7, false)]
+prefs-visible-page=0
+search-entry-border-radius=(true, 10)
+update-notifier-project-version=70
+vert-separator=true
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+dot-position='BOTTOM'
+dot-style-focused='CILIORA'
+dot-style-unfocused='DASHES'
+extension-version=72
+focus-highlight-dominant=false
+hotkeys-overlay-combo='TEMPORARILY'
+panel-anchors='{"RHT-0x00000000":"MIDDLE"}'
+panel-element-positions='{"RHT-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":false,"position":"stackedBR"}]}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-sizes='{}'
+prefs-opened=false
+trans-panel-opacity=0.80000000000000004
+trans-use-custom-opacity=true
+window-preview-title-position='TOP'
