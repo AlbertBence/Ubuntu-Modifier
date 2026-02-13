@@ -22,8 +22,9 @@ apt install -y gnome-software
 apt install -y flatpak
 apt install -y gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-apt remove -y gnome-software-plugin-snap
-apt purge -y snapd
+snap remove firefox --purge
+snap remove snap-store --purge
+snap remove gtk-common-themes --purge
 flatpak update
 flatpak --system install -y flathub com.brave.Browser
 flatpak --system install -y flathub io.missioncenter.MissionCenter
